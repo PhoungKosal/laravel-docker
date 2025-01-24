@@ -1,0 +1,42 @@
+# Ignore the vendor directory
+/vendor
+
+# Ignore the node_modules directory
+/node_modules
+
+# Ignore environment files allow for local development all .env.production files
+.env
+.env.example
+.env.local
+.env.development
+.env.test
+
+# Allow .env.production files
+!.env.production
+
+# Ignore log files
+/storage/logs/*.log
+
+# Ignore compiled view files
+/storage/framework/views/*.php
+
+# Ignore cache files
+/storage/framework/cache/*.php
+
+# Ignore session files
+/storage/framework/sessions/*.php
+
+# Ignore compiled classes
+/bootstrap/cache/*.php
+
+# Ignore IDE specific files
+/.idea
+/.vscode
+
+# Ignore Docker specific files
+.dockerignore
+Dockerfile
+
+# Ignore other system files
+Thumbs.db
+.DS_Store
